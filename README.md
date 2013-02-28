@@ -6,8 +6,8 @@ Java Preferences CLI
 #### Usage
 
 ```
-Usage: preferd <command> <args>
-Available commands:
+Usage: preferd <command> <arguments>
+Commands:
     ls/list    [NODE [KEY]]
     get        NODE KEY
     put/set    NODE [KEY VALUE]
@@ -26,7 +26,7 @@ Available commands:
 
     help
 
-Where:
+Arguments:
     NODE in "user" namespace       -u /node/path
     NODE in "system" namespace     -s /node/path
     KEY                            -k key
