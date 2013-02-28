@@ -1,10 +1,11 @@
-package x.preferd;
+package me.shakiba.preferd;
 
 import java.util.List;
 import java.util.prefs.BackingStoreException;
 import java.util.prefs.Preferences;
 
-import x.preferd.Options.Opt;
+import me.shakiba.preferd.Options.Opt;
+
 
 public class NodeKeyValue {
     private String node;

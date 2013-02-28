@@ -1,11 +1,12 @@
-package x.preferd.cmd;
+package me.shakiba.preferd.cmd;
 
 import java.util.Properties;
 import java.util.prefs.Preferences;
 
-import x.preferd.NodeKeyValue;
-import x.preferd.Options;
-import x.preferd.UsageException;
+import me.shakiba.preferd.NodeKeyValue;
+import me.shakiba.preferd.Options;
+import me.shakiba.preferd.UsageException;
+
 
 
 public class Import extends AbstractCommand {

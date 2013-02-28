@@ -1,6 +1,6 @@
-package x.preferd.cmd;
+package me.shakiba.preferd.cmd;
 
-import x.preferd.Options;
+import me.shakiba.preferd.Options;
 
 public abstract class AbstractCommand {
 

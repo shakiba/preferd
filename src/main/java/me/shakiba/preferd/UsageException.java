@@ -1,4 +1,4 @@
-package x.preferd;
+package me.shakiba.preferd;
 
 public class UsageException extends Exception {
     private static final long serialVersionUID = -3038574576981390837L;

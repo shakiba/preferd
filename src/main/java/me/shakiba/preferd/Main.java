@@ -1,20 +1,21 @@
-package x.preferd;
+package me.shakiba.preferd;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
 
-import x.preferd.cmd.AbstractCommand;
-import x.preferd.cmd.Copy;
-import x.preferd.cmd.Export;
-import x.preferd.cmd.Get;
-import x.preferd.cmd.Help;
-import x.preferd.cmd.Import;
-import x.preferd.cmd.List;
-import x.preferd.cmd.Move;
-import x.preferd.cmd.Put;
-import x.preferd.cmd.Remove;
+import me.shakiba.preferd.cmd.AbstractCommand;
+import me.shakiba.preferd.cmd.Copy;
+import me.shakiba.preferd.cmd.Export;
+import me.shakiba.preferd.cmd.Get;
+import me.shakiba.preferd.cmd.Help;
+import me.shakiba.preferd.cmd.Import;
+import me.shakiba.preferd.cmd.List;
+import me.shakiba.preferd.cmd.Move;
+import me.shakiba.preferd.cmd.Put;
+import me.shakiba.preferd.cmd.Remove;
+
 
 
 public class Main {

@@ -1,4 +1,4 @@
-package x.preferd;
+package me.shakiba.preferd;
 
 import java.util.ArrayList;
 import java.util.HashMap;

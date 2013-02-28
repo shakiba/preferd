@@ -1,10 +1,11 @@
-package x.preferd.cmd;
+package me.shakiba.preferd.cmd;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-import x.preferd.Main;
-import x.preferd.Options;
+import me.shakiba.preferd.Main;
+import me.shakiba.preferd.Options;
+
 
 
 public class Help extends AbstractCommand {

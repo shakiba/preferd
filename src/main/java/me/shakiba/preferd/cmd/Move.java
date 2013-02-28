@@ -1,4 +1,4 @@
-package x.preferd.cmd;
+package me.shakiba.preferd.cmd;
 
 public class Move extends Copy {
 

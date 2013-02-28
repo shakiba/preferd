@@ -1,4 +1,4 @@
-package x.preferd;
+package me.shakiba.preferd;
 
 public class ExecutionError extends Exception {
 
