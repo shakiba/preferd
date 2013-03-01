@@ -45,7 +45,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>x.preferd.Main</mainClass>
+                            <mainClass>me.shakiba.preferd.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -58,7 +58,7 @@
                     <!-- <assembleDirectory>${project.build.directory}/${project.artifactId}-${project.version}</assembleDirectory> -->
                     <programs>
                         <program>
-                            <mainClass>x.preferd.Main</mainClass>
+                            <mainClass>me.shakiba.preferd.Main</mainClass>
                             <name>preferd</name>
                         </program>
                     </programs>
