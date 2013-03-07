@@ -44,8 +44,8 @@ cd preferd
 git clone git@github.com:shakiba/preferd.git .
 mvn package
 sudo touch /usr/bin/preferd
-sudo echo "./target/appassembler/bin/preferd \"\$@\"" > /usr/bin/preferd
-# or sudo bash -c 'echo "./target/appassembler/bin/preferd \"\$@\"" > /usr/bin/preferd'
+sudo echo "$(cd -P "$(dirname "$0")"&&pwd)/target/appassembler/bin/preferd \"\$@\"" > /usr/bin/preferd
+# or sudo bash -c 'echo "$(cd -P "$(dirname "$0")"&&pwd)/target/appassembler/bin/preferd \"\$@\"" > /usr/bin/preferd'
 sudo chmod a+x /usr/bin/preferd
 sudo chmod a+x ./target/appassembler/bin/preferd
 ```
